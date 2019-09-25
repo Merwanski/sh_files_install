@@ -6,4 +6,5 @@ install_pip_numpy_etc.sh
 kile_install.sh
 
 opencv_test_code/
+
 uninstall_opencv
