@@ -1,0 +1,19 @@
+# To unisntall opencv go to build folder of opencv
+# and run the following command
+
+sudo make uninstall
+
+
+# and If you have the build directory then it is recommended to execute:
+
+sudo make uninstall
+
+
+# From the build directory as per @Navid 's answer But this will leave few .so* files somewhere
+# To completely remove all such files, do:
+
+sudo rm /usr/local/{bin,lib}/*opencv* 
+
+
+# /usr/local is what we normally set CMAKE_INSTALL_PREFIX to while running cmake. Replace it according to how you executed cmake
+# https://stackoverflow.com/questions/9276169/removing-all-installed-opencv-libs
