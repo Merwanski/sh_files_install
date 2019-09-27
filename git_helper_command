@@ -1,0 +1,16 @@
+# How to save username and password in GIT?
+
+Method 1
+	$ git config --global credential.helper store
+	$ git pull
+	$ git push
+	
+	Enter once the username and password this time
+
+
+Method 2
+	You can set your username and password like this:
+	$ git config --global user.name "your username"	
+	$ git config --global user.password "your password"
+
+
